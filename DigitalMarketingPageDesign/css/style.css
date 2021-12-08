@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600&display=swap");
+
+body {
+  font-family: "Work Sans", sans-serif;
+}
+.navbar {
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar .nav-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+.nav-list li {
+  margin-left: 3rem;
+  text-align: center;
+  color: #3c44b8;
+  cursor: pointer;
+}
+
+.nav-list li button {
+  text-transform: uppercase;
+  padding: 8px 20px;
+  border-radius: 15px;
+  border: none;
+  background-color: #828afa;
+  position: relative;
+  bottom: 10.5%;
+  color: #1e2478;
+}
+
+.nav-list li button:hover {
+  background-color: #4f5af3;
+  color: #fff;
+  cursor: pointer;
+}
+
+.main {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.main .left-div {
+  margin-left: 8rem;
+  width: 40%;
+}
+
+.left-div h1 {
+  text-transform: uppercase;
+  text-transform: uppercase;
+  font-size: 4.5rem;
+  position: relative;
+  top: 15%;
+  margin: 0;
+  color: #363d9e;
+}
+
+.left-div h3 {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  position: relative;
+  top: 8%;
+  letter-spacing: 4px;
+  font-weight: 400;
+  color: #ff792b;
+}
+
+.left-div p {
+  margin: 1%;
+  font-size: 17px;
+  position: relative;
+  top: 7%;
+  color: #929191;
+  line-height: 30px;
+}
+
+.main-button {
+  position: relative;
+  top: 16%;
+  margin: 1%;
+}
+
+.main-button button {
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 12px 25px;
+  border-radius: 15px;
+  border: none;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #ffffff;
+  background-color: #708aff;
+}
+
+.main-button button:hover {
+  background-color: #4f5bff;
+  cursor: pointer;
+}
+.right-div img {
+  width: 38rem;
+}
+
+@media only screen and (max-width: 1217px) {
+  .left-div h1 {
+    font-size: 4rem;
+    position: relative;
+  }
+
+  .left-div h3 {
+    font-size: 2rem;
+    top: 8%;
+    letter-spacing: 6px;
+  }
+
+  .left-div p {
+    margin: 0%;
+    font-size: 16px;
+    top: 5%;
+    line-height: 26px;
+  }
+
+  .main-button {
+    top: 12%;
+    margin: 0%;
+  }
+
+  .main-button button {
+    font-size: 14px;
+  }
+
+  .nav-list li {
+    margin-left: 2rem;
+  }
+
+  .right-div img {
+    width: 34rem;
+  }
+}
+
+@media only screen and (max-width: 958px) {
+  .main .left-div {
+    margin-left: 3rem;
+  }
+
+  .right-div img {
+    width: 33rem;
+  }
+}
+
+@media only screen and (max-width: 862px) {
+  .left-div h1 {
+    font-size: 3rem;
+    position: relative;
+  }
+
+  .left-div h3 {
+    font-size: 1.5rem;
+    top: 10%;
+    letter-spacing: 4px;
+  }
+
+  .left-div p {
+    margin: 0%;
+    font-size: 15px;
+    top: 8%;
+    line-height: 23px;
+  }
+
+  .main-button button {
+    font-size: 12px;
+  }
+
+  .right-div img {
+    width: 30rem;
+  }
+
+  .nav-list li {
+    margin-left: 1rem;
+  }
+}
+
+@media only screen and (max-width: 634px) {
+  .nav-list li {
+    margin-left: 10px;
+  }
+
+  .right-div {
+    right: 5%;
+  }
+
+  .main {
+    flex-direction: column-reverse;
+  }
+
+  .main .left-div {
+    width: 80%;
+  }
+
+  .main-button {
+    margin-top: 3%;
+  }
+
+  .left-div h3 {
+    margin-top: 1%;
+  }
+}
